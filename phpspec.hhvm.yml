@@ -1,0 +1,6 @@
+---
+suites:
+  notifier_suite:
+    namespace: Rojtjo\Notifier\Laravel
+    psr4_prefix: Rojtjo\Notifier\Laravel
+formatter.name: pretty

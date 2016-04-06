@@ -1,0 +1,33 @@
+{
+    "name": "rojtjo/notifier-laravel",
+    "description": "Simple notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roj Vroemen",
+            "email": "me@rojvroemen.com",
+            "homepage": "https://rojvroemen.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rojtjo\\Notifier\\Laravel\\": "src/"
+        }
+    },
+    "require": {
+        "rojtjo/notifier": "dev-master"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.5",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3",
+        "henrikbjorn/phpspec-code-coverage": "^2.0",
+        "illuminate/http": "^5.2",
+        "illuminate/session": "^5.2",
+        "illuminate/support": "^5.2",
+        "illuminate/contracts": "^5.2"
+    },
+    "minimum-stability": "stable"
+}
