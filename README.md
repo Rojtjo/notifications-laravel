@@ -20,13 +20,13 @@ $ composer require rojtjo/notifier-laravel
 Register the service provider in `config/app.php`:
 
 ```php
-    \Rojtjo\Notifier\Laravel|NotifierServiceProvider::class,
+    \Rojtjo\Notifier\Laravel\NotifierServiceProvider::class,
 ```
 
 Add the middleware to the kernel in `app/Http/Kernel.php`:
 
 ```php
-    \Rojtjo\Notifier\Laravel\ShareNotificationsWithView::class
+    \Rojtjo\Notifier\Laravel\ShareNotificationsWithView::class,
 ```
 
 ## Documentation
